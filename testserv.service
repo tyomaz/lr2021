@@ -1,0 +1,11 @@
+[Unit]
+Description= Test service
+
+[Service]
+ExecStart=/home/Source/ITS/test1.sh
+WorkingDirectory=/home/Source/ITS
+User=artem
+Group=artem
+
+[Install]
+WantedBy=multi-user.target
