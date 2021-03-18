@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_PATH='/home/Source/ITS/test.log'
+LOG_PATH='/home/artem/Source/ITS/test.log'
 echo /dev/null > "$LOG_PATH"
 
 echo "started, for stop push Ctrl+C"
